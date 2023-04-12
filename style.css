@@ -1,0 +1,25 @@
+#text-area {
+    width: 80%;
+    height: 200px;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  #text-area:focus{
+    background-color: rgba(15, 240, 15, 0.242);
+    outline:none;
+  }
+  
+  #start-button, #stop-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #start-button:hover, #stop-button:hover {
+    background-color: #3e8e41;
+  }
